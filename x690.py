@@ -149,7 +149,7 @@ def parse_oid(octets):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='X.609 (basic/canonical/distinguished encoding rules) '
+        description='X.690 (basic/canonical/distinguished encoding rules) '
                     'parser')
 
     parser.add_argument('in_file',
